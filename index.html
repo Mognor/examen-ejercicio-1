@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    
+    <title>FlexBox</title>
+    <style>
+      body{
+        background-color: rgb(207, 204, 204);
+        margin: 0px 0px 0px 0px;
+      }
+      p{
+        font-style: italic;
+        font-size: 16px;
+        color: black;
+      }
+      #contenedor{
+        width: 100%;
+        height: 100px;
+        margin: none;
+        background-color: darkorange;
+        border: none;
+        padding-top: 30px;
+        outline: none;
+      }
+      div.kitty{
+        width: 60%;
+        margin: 0px 20% 0px 20%;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+      }
+      form > img{
+        width: 100%;
+        height: 150px;
+      }
+      img + h1{
+        color: red;
+      }
+      #caja{
+        display: flex;
+        background-color: white;
+        flex-direction: column;
+        width: 250px;
+        height: 700px;
+        margin: 0px 10px 0px 10px;
+        padding: 0px 0px 0px 0xp;
+      }
+      #titulo-principal{
+        text-align: center;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="contenedor">
+      <h1 id="titulo-principal">Kitty Heaven</h1>
+    </div>
+    <br>
+    <div class="kitty">
+      <form id="caja">
+        <img src="img/kitten1.jpg">
+        <h1>Whiskey</h1>
+        <p>Un nuevo genio ha llegado a internet, pero no es lo que seguramente estés pensando. No es un profesor, un doctor, un experto en alguna materia o algo parecido. Ni siquiera es una persona. Es un gato. Se llama Whiskey y no hay quien le pueda engañar en el juego del trile, en la modalidad en la que se esconde una pelotita bajo uno de tres cubiletes y se les da vueltas para perder de vista al que lo contiene. Pues este gato se las sabe todas.</p>
+      </form>
+      <form id="caja">
+        <img src="img/kitten2.jpg">
+        <h1>Fluffy</h1>
+        <p>En Instagram existe una cuenta de este gatito, CurlySnow0915, donde se puede ver un vídeo sobre la tremenda habilidad del minino en adivinar dónde está la bolita en cada momento. Para demostrar la genialidad de este animal, su dueña decidió ponerle a prueba aumentando el número de cubiletes cada vez para intentar distraer y engañar al gato y que no acertara en dónde había escondido la pelota. Añadir un cubilete fue en vano.</p>
+      </form>
+      <form id="caja">
+        <img src="img/kitten3.jpg">
+        <h1>Kitty</h1>
+        <p>Simpático felino. Un gato bebé se ha convertido en la ‘estrella’ más tierna de Facebook, después de que se hiciera viral una serie de imágenes que muestran su insólita reacción al sentir la arena de una playa por primera vez. La dueña del minino quería que su adorada mascota conozca el mar, pero nunca imaginó que compartir fotos de su curiosa conducta lo volverían ‘famoso’ en las redes sociales, especialmente en Estados Unidos, España, México, entre otros países.</p>
+      </form>
+    </div>
+  </body>
+</html>
